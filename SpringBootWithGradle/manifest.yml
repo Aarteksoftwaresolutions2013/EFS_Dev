@@ -1,0 +1,9 @@
+---
+memory: 2G
+instances: 1
+applications:
+- name: SpringBootWithGradle
+  path: ./build/libs/SpringBootWithGradle-0.1.0.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  
+  
